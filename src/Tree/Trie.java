@@ -4,7 +4,7 @@ package Tree;
  * Created by Administrator on 2/25/14.
  */
 public class Trie {
-    private TrieNode root = new TrieNode();
+    private TrieNode root = new TrieNode(null);
     private char start='a';
 
     public class TrieNode{
